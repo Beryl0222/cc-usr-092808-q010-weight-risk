@@ -1,0 +1,8 @@
+[project]
+name = "wellness-ops"
+version = "1.0.0"
+requires-python = ">=3.11"
+description = "健康项目运营协作平台"
+
+[project.scripts]
+wellness-ops = "wellness_ops.cli:main"
